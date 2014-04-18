@@ -3,7 +3,7 @@ Contributors: athenaofdelphi
 Donate link: http://athena.outer-reaches.com/wiki/doku.php?id=donate
 Tags: custom field, custom value, custom key, field, value, key, post meta, meta, get_post_meta, widget, sidebar, multiple widgets
 Requires at least: 2.5
-Tested up to: 3.5
+Tested up to: 3.9
 Stable tag: 0.991
 
 The Advanced Custom Field Widget is an extension of the Custom Field Widget by Scott Wallick, and displays values of custom field keys.
