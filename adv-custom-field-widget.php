@@ -5,7 +5,7 @@ Plugin uri: http://athena.outer-reaches.com/wiki/doku.php?id=projects:acfw:home
 Description: Displays the values of specified <a href="http://codex.wordpress.org/Using_Custom_Fields">custom field</a> keys, allowing post- and page-specific meta content in your sidebar. This plugin started life as a plaintxt.org experiment for WordPress by Scott Wallick, but I needed (or wanted) it to do more, so I've created this version which has more functionality than the original.  For some detailed instructions about it's use, check out my <a href="http://athena.outer-reaches.com/wiki/doku.php?id=projects:acfw:home">wiki</a>.  To report bugs or make feature requests, visit the Outer Reaches Studios <a href="http://mantis.outer-reaches.co.uk">issue tracker</a>, you will need to signup an account to report issues.
 Author: Christina Louise Warne
 Author uri: http://athena.outer-reaches.com/
-Version: 0.991
+Version: 0.992
 */
 
 /*
@@ -810,7 +810,7 @@ function wp_widget_adv_custom_field_control( $widget_args ) {
     <p><?php _e( 'ACFW instance ID (use this with shortcode and theme function):', ACFWTEXTDOMAIN ); ?> <b></i><?php if (is_numeric( $number )) { echo $number; } else { _e( '(Unknown - Save the configuration)', ACFWTEXTDOMAIN ); } ?></b></i></p>
     <h3>Key Data Source</h3>
 	<p>
-        <?php printf( __( 'Enter the custom field key <a href="%s">[?]</a>  to locate in single posts/pages. When found, the corresponding value is displayed along with widget title and text (if provided).', ACFWTEXTDOMAIN ), CODECUSTOMFIELDLINK ) ?>
+        <?php printf( __( 'Enter the custom field key <a href="%s">[?]</a>  to locate in single posts/pages. When found, the corresponding value is displayed along with widget title and text (if provided).', ACFWTEXTDOMAIN ), CODEXCUSTOMFIELDLINK ) ?>
     </p>
 	<p>
         <?php acfw_editfield( $number, __( 'Primary Custom Field Key (required - Used for randomised content):', ACFWTEXTDOMAIN ), '', $key, $keyloadall, $keysep ); ?><br />
