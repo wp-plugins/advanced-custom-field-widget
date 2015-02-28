@@ -32,7 +32,7 @@ For more information about plugins and installing them, please review the [manag
 
 == Changelog ==
 
-=0.992 =
+= 0.992 =
 * Fixed 'undefined constant' issue in widget control panel
 
 = 0.991 =
